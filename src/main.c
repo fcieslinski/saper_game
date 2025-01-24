@@ -80,8 +80,6 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    printf("Koniec gry! Ranking najlepszych graczy:\n");
-    printTopPlayers();
     saveTopPlayersToFile();
 
     return 0;
